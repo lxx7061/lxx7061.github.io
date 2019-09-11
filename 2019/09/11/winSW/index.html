@@ -1,0 +1,345 @@
+<!DOCTYPE HTML>
+<html>
+
+<head><meta name="generator" content="Hexo 3.9.0">
+	<link rel="bookmark" type="image/x-icon" href="/img/logo_miccall.png">
+	<link rel="shortcut icon" href="/img/logo_miccall.png">
+	
+			    <title>
+    Hexo
+    </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="/css/mic_main.css">
+    <link rel="stylesheet" href="/css/dropdownMenu.css">
+    <meta name="keywords" content="miccall">
+    
+    	<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+	 
+    <noscript>
+        <link rel="stylesheet" href="/css/noscript.css">
+    </noscript>
+    <style type="text/css">
+        body:before {
+          content: ' ';
+          position: fixed;
+          top: 0;
+          background: url('/img/bg.jpg') center 0 no-repeat;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          background-size: cover; 
+        }
+    </style>
+
+			    
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script async type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/jquery.scrollex.min.js"></script>
+    <script src="/js/jquery.scrolly.min.js"></script>
+    <script src="/js/skel.min.js"></script>
+    <script src="/js/util.js"></script>
+    <script src="/js/main.js"></script>
+	
+</head>
+    
+		
+<!-- Layouts -->
+
+
+
+<!--  代码渲染  -->
+<link rel="stylesheet" href="/css/prism_coy.css">
+<link rel="stylesheet" href="/css/typo.css">
+<!-- 文章页 -->
+<body class="is-loading">
+    <!-- Wrapper 外包 s-->
+    <div id="wrapper" class="fade-in">
+        <!-- Intro 头部显示 s -->
+        <!-- Intro 头部显示 e -->
+        <!-- Header 头部logo start -->
+        <header id="header">
+    <a href="/" class="logo">MICCALL</a>
+</header>
+        <!-- Nav 导航条 start -->
+        <nav id="nav" class="special">
+            <ul class="menu links">
+			<!-- Homepage  主页  --> 
+			<li>
+	            <a href="/" rel="nofollow">主页</a>
+	        </li>
+			<!-- categories_name  分类   --> 
+	        
+	        <li class="active">
+	            <a href="#s1">分类</a>
+	                    <ul class="submenu">
+	                        <li>
+	                        
+	                    </li></ul>
+	        </li>
+	        
+	        <!-- archives  归档   --> 
+	        
+	        
+		        <!-- Pages 自定义   -->
+		        
+		        <li>
+		            <a href="/about/" title="简历">
+		                简历
+		            </a>
+		        </li>
+		        
+		        <li>
+		            <a href="/group/" title="团队">
+		                团队
+		            </a>
+		        </li>
+		        
+		        <li>
+		            <a href="/gallery/" title="图库">
+		                图库
+		            </a>
+		        </li>
+		        
+		        <li>
+		            <a href="/tag/" title="标签">
+		                标签
+		            </a>
+		        </li>
+		        
+
+
+            </ul>
+            <!-- icons 图标   -->
+			<ul class="icons">
+                    
+                    <li>
+                        <a title="github" href="https://github.com/miccall" target="_blank" rel="noopener">
+                            <i class="icon fa fa-github"></i>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a title="500px" href="http://500px.com" target="_blank" rel="noopener">
+                            <i class="icon fa fa-500px"></i>
+                        </a>
+                    </li>
+                    
+			</ul>
+</nav>
+
+        <div id="main">
+            <div class="post_page_title_img" style="height: 25rem;background-image: url();background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;overflow:hidden;">
+                <a href="#" style="padding: 4rem 4rem 2rem 4rem ;"><h2>winSW</h2></a>
+            </div>
+            <!-- Post -->
+            <div class="typo" style="padding: 3rem;">
+                <h1 id="winSW-windows-自定义可运行服务"><a href="#winSW-windows-自定义可运行服务" class="headerlink" title="winSW windows 自定义可运行服务"></a>winSW windows 自定义可运行服务</h1><h3 id="简介-Windows-Service-Wrapper"><a href="#简介-Windows-Service-Wrapper" class="headerlink" title="简介 Windows Service Wrapper"></a>简介 <a href="https://github.com/kohsuke/winsw" target="_blank" rel="noopener">Windows Service Wrapper</a></h3><ul>
+<li>将Windows上的任何一个程序注册为服务的工具</li>
+</ul>
+<blockquote>
+<p>WinSW is an executable binary, which can be used to wrap and manage a custom process as a Windows service.</p>
+</blockquote>
+<h3 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h3><p>在前面的话：</p>
+<blockquote>
+<p>一个winSW.exe只能启动一个服务，如果想启动多个windows服务需要配置多个winSW，或者说多下几个winSW.exe，来分别配置</p>
+</blockquote>
+<ul>
+<li><a href="https://github.com/kohsuke/winsw/releases" target="_blank" rel="noopener">下载</a>相应的<code>exe</code> 及<code>xml</code></li>
+</ul>
+<p><img src="https://s2.ax1x.com/2019/09/11/ndvBB8.jpg" alt="ndvBB8.jpg"></p>
+<ul>
+<li>把下载的.exe文件重命名为你自己要用的服务名称，如<code>areaService.exe</code></li>
+</ul>
+<p><img src="https://s2.ax1x.com/2019/09/11/ndv0nf.jpg" alt="ndv0nf.jpg"></p>
+<ul>
+<li>在areaService.exe同目录下创建xml配置文件，可以复制上面下载的xml，简单配置如下：</li>
+</ul>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">service</span>&gt;</span></span><br><span class="line">  <span class="comment">&lt;!-- 该服务在本地电脑的唯一标识 --&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">id</span>&gt;</span>areaSerice<span class="tag">&lt;/<span class="name">id</span>&gt;</span></span><br><span class="line">  <span class="comment">&lt;!-- 注册为系统服务的名称 --&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">name</span>&gt;</span>areaSerice<span class="tag">&lt;/<span class="name">name</span>&gt;</span></span><br><span class="line">  <span class="comment">&lt;!-- 对服务的描述 --&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">description</span>&gt;</span>后台服务<span class="tag">&lt;/<span class="name">description</span>&gt;</span></span><br><span class="line">  <span class="comment">&lt;!-- Automatic  -  自动启动（默认）</span></span><br><span class="line"><span class="comment">	Boot      - 设备驱动程序由操作系统加载程序启动</span></span><br><span class="line"><span class="comment">	System    - 设备驱动程序由操作系统初始化过程启动</span></span><br><span class="line"><span class="comment">	Manual    - 手动启动</span></span><br><span class="line"><span class="comment">	Disabled  - 禁用</span></span><br><span class="line"><span class="comment">  --&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">startmode</span>&gt;</span>Manual<span class="tag">&lt;/<span class="name">startmode</span>&gt;</span></span><br><span class="line">  <span class="comment">&lt;!-- 将java程序添加到系统服务 --&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">executable</span>&gt;</span>D:\areaApplication\areaServer\start.bat<span class="tag">&lt;/<span class="name">executable</span>&gt;</span></span><br><span class="line">  <span class="comment">&lt;!-- append  -  Rust更新现有日志</span></span><br><span class="line"><span class="comment">       none    - 不将可执行日志保存到磁盘</span></span><br><span class="line"><span class="comment">       reset   - 启动时擦除日志文件</span></span><br><span class="line"><span class="comment">       roll    - 根据大小旋转日志</span></span><br><span class="line"><span class="comment">       roll-by-time  - 根据时间旋转日志 </span></span><br><span class="line"><span class="comment">	--&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">logmode</span>&gt;</span>rotate<span class="tag">&lt;/<span class="name">logmode</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">service</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p><img src="https://s2.ax1x.com/2019/09/11/ndvDHS.jpg" alt="ndvDHS.jpg"></p>
+<ul>
+<li>基本命令</li>
+</ul>
+<figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">注册服务</span><br><span class="line">areaService.exe install</span><br><span class="line">卸载服务</span><br><span class="line">areaService.exe uninstall / sc delete areaService(dos命令)</span><br><span class="line">启动服务</span><br><span class="line">areaService.exe <span class="built_in">start</span> /  <span class="built_in">net</span> <span class="built_in">start</span> areaService(dos命令)</span><br><span class="line">关闭服务</span><br><span class="line">areaService.exe stop / <span class="built_in">net</span> stop areaService(dos命令)</span><br><span class="line">重启服务</span><br><span class="line">areaService.exe restart</span><br><span class="line">查看状态</span><br><span class="line">areaService.exe <span class="built_in">start</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="WinSW配置说明"><a href="#WinSW配置说明" class="headerlink" title="WinSW配置说明"></a>WinSW配置说明</h3><ul>
+<li><strong>配置文件的文件结构</strong> 必须有<code>service</code>根节点</li>
+</ul>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">service</span>&gt;</span></span><br><span class="line">    。。。</span><br><span class="line"><span class="tag">&lt;/<span class="name">service</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><strong>配置文件中的环境变量表达式</strong></li>
+</ul>
+<p><code>XML</code>配置文件中，可以包含形如<code>%Name%</code>环境变量表达式</p>
+<p>服务包装器本身定义了一个名为<code>BASE</code>的环境变量，它指向一个名为<code>areaService.exe</code>的文件所在目录</p>
+<ul>
+<li><p><strong>配置项说明</strong></p>
+<ul>
+<li><p><code>id</code> 服务唯一标识符</p>
+<p>指定在Windows系统内部使用的识别服务的ID。在系统中安装的所有服务中，这必须是唯一的，它应该完全由字母数字字符组成</p>
+</li>
+<li><p><code>name</code>  服务的简短名称</p>
+<p>包含空格和其他字符。尽量简短，就像“id”一样，在系统的所有服务名称中，也要保持唯一。</p>
+</li>
+<li><p><code>description</code> 服务描述</p>
+<p>当选中该服务时，它将显示在Windows服务管理器中。</p>
+</li>
+<li><p><code>executable</code> 服务启动的可执行文件</p>
+<p>它可以是绝对路径，也可以指定可执行文件的名称，然后从环境变量<code>PATH</code>中搜索（需要注意的是，服务经常在不同的用户账户中运行，因此它可能需要有不同于你设置在环境变量<code>Path</code>中的路径）。</p>
+</li>
+<li><p><code>arguments</code> 执行的参数</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">service</span>&gt;</span></span><br><span class="line">    <span class="comment">&lt;!-- 将java程序添加到系统服务，确保java命令能够在cmd中执行 --&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">executable</span>&gt;</span>java<span class="tag">&lt;/<span class="name">executable</span>&gt;</span></span><br><span class="line">    <span class="comment">&lt;!-- 执行的参数，每个arguments节点会自动添加空格 --&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">arguments</span>&gt;</span>-jar "myapp.jar"<span class="tag">&lt;/<span class="name">arguments</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">service</span>&gt;</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p><code>startmode</code> 启动模式</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">Automatic  -  自动启动（默认）</span><br><span class="line">Boot       - 设备驱动程序由操作系统加载程序启动</span><br><span class="line">System     - 设备驱动程序由操作系统初始化过程启动</span><br><span class="line">Manual     - 手动启动</span><br><span class="line">Disabled   - 禁用</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><code>delayedAutoStart</code>  延时启动模式</p>
+<p>如果配置<code>startmode</code>为自动启动，则可以通过配置<code>delayedAutoStart</code>实现延迟启动，<code>win7</code>或<code>windows server2008</code>前的系统可能无效</p>
+</li>
+<li><p><code>depend</code> 启动依赖项，可配置多个（依赖项必须先于当前服务启动）</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">   <span class="tag">&lt;<span class="name">service</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">depend</span>&gt;</span>OracleServiceORCL<span class="tag">&lt;/<span class="name">depend</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">depend</span>&gt;</span>areaRedisService<span class="tag">&lt;/<span class="name">depend</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">service</span>&gt;</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p><code>logpath</code> <code>winSW</code>服务日志路径</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">   <span class="tag">&lt;<span class="name">service</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">logpath</span>&gt;</span>D:\areaApplication\areaWinSwLogs<span class="tag">&lt;/<span class="name">logpath</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">service</span>&gt;</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p><code>logmode</code>  日志模式</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">append  	  - Rust更新现有日志</span><br><span class="line">none    	  - 不将可执行日志保存到磁盘</span><br><span class="line">reset         - 启动时擦除日志文件</span><br><span class="line">roll    	  - 根据大小旋转日志</span><br><span class="line">roll-by-time  - 根据时间旋转日志</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><code>onfailure</code> 启动失败后的操作模式</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">restart：重启服务</span><br><span class="line">reboot：重启Windows</span><br><span class="line">none：什么都不做，让服务停止</span><br><span class="line">	</span><br><span class="line">第一次失败后10秒内重新启动</span><br><span class="line">第二次失败后30秒内重新启动</span><br><span class="line">第三次什么都不做了</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;onfailure action=&quot;restart&quot; delay=&quot;10 sec&quot;/&gt;</span><br><span class="line">&lt;onfailure action=&quot;restart&quot; delay=&quot;30 sec&quot;/&gt;</span><br><span class="line">&lt;onfailure action=&quot;none&quot; /&gt;</span><br></pre></td></tr></table></figure>
+
+</li>
+</ul>
+</li>
+</ul>
+
+            </div>
+
+            <!-- Post Comments -->
+            
+    <!-- 使用 DISQUS_CLICK -->
+<div id="disqus-comment">
+    <div id="disqus_thread"></div>
+
+<!-- add animation -->
+<style>
+	.disqus_click_btn {
+            line-height: 30px;
+            margin: 0;
+            min-width: 50px;
+            padding: 0 14px;
+            display: inline-block;
+            font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            text-transform: uppercase;
+            letter-spacing: 0;
+            overflow: hidden;
+            will-change: box-shadow;
+            transition: box-shadow .2s cubic-bezier(.4, 0, 1, 1), background-color .2s cubic-bezier(.4, 0, .2, 1), color .2s cubic-bezier(.4, 0, .2, 1);
+            outline: 0;
+            cursor: pointer;
+            text-decoration: none;
+            text-align: center;
+            vertical-align: middle;
+            border: 0;
+            background: rgba(158, 158, 158, .2);
+            box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+            color: #fff;
+            background-color: #7EC0EE;
+            text-shadow: 0
+        }
+</style>
+	
+<div class="btn_click_load" id="disqus_bt"> 
+    <button class="disqus_click_btn">点击查看评论</button>
+</div>
+
+<!--
+<script type="text/javascript">
+$('.btn_click_load').click(function() {
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'http-miccall-tech'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+
+    document.getElementById('disqus_bt').style.display = "none";
+});
+</script>
+-->
+<script type="text/javascript">
+    var disqus_config = function () {
+        this.page.url = 'http://yoursite.com/2019/09/11/winSW/';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'http://yoursite.com/2019/09/11/winSW/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+</script>
+
+<script type="text/javascript">
+    $('.btn_click_load').click(function() {  //click to load comments
+        (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document;
+            var s = d.createElement('script');
+            s.src = '//http-miccall-tech.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', + new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+        $('.btn_click_load').css('display','none');
+    });
+</script>
+</div>
+<style>
+    #disqus-comment{
+        background-color: #eee;
+        padding: 2pc;
+    }
+</style>
+
+
+        </div>
+        <!-- Copyright 版权 start -->
+                <div id="copyright">
+            <ul>
+                <li>&copy;Powered By <a href="https://hexo.io/zh-cn/" style="border-bottom: none;">hexo</a></li>
+                <li>Design: <a href="http://miccall.tech " style="border-bottom: none;">miccall</a></li>
+            </ul>
+            
+                <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+			
+        </div>
+    </div>
+</body>
+
+
+
+ 	
+</html>

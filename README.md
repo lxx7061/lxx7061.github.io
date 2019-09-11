@@ -1,2 +1,2 @@
 # lxx7061.github.io
-hexo
+[hexo](lxx7061.github.io)
